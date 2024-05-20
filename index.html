@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-rose-50 w-full h-screen">
+    <nav class="bg-white w-full h-[120px] px-5 flex justify-between items-center">
+      <div class="grow-[2] mt-12 cursor-pointer"><img
+          src="https://d2s6dwtgvg1inc.cloudfront.net/icons/ef-ub-logo-tours-header.svg" alt="">
+      </div>
+      <div class="hidden grow-[5] md:block">
+        <ul class="flex mt-16 font-semibold">
+          <li class="mx-3 hover:text-blue-400 cursor-pointer">TRIPS</li>
+          <li class="mx-3 hover:text-blue-400 cursor-pointer">DEALS</li>
+          <li class="mx-3 hover:text-blue-400 cursor-pointer">EARN FREE TRAVEL</li>
+          <li class="mx-3 hover:text-blue-400 cursor-pointer">HOW IT WORKS</li>
+        </ul>
+      </div>
+      <div class="hidden grow-[3] md:block">
+        <div class=" flex justify-between mb-3">
+          <div class="flex hover:text-blue-400 cursor-default">
+            <i class="fa-regular fa-user mx-3 pt-1"></i>
+            <h2>Log in</h2>
+          </div>
+          <div class="flex hover:text-blue-400 cursor-default">
+            <i class="fa-regular fa-heart mx-3 pt-1"></i>
+            <h2>Wishlist</h2>
+          </div>
+          <div class="flex hover:text-blue-400 cursor-default">
+            <h2>Contact us</h2>
+          </div>
+        </div>
+        <div class="h-[45px] border-[1px] border-black flex items-center justify-between">
+          <input class="w-full outline-none px-5 border-none text-sm text-gray-400 font-semibold" type="search"
+            value="Search all trips">
+          <i
+            class="border-l-[1px] border-black fa-solid fa-magnifying-glass bg-orange-400 h-full w-14 text-center pt-2 text-xl"></i>
+        </div>
+      </div>
+
+      <div class="md:hidden text-xl mt-14">
+        <i class="fa-solid fa-magnifying-glass mx-1"></i>
+        <i class="fa-regular fa-heart mx-1"></i>
+        <i class="fa-solid fa-bars mx-1"></i>
+      </div>
+
+    </nav>
+    <!-- ----end of navbar------ -->
+    <div
+      class="bg-[url('https://a.storyblok.com/f/51678/2880x1490/aab9348cb1/hero-desktop-2880x1490-nye-florence.jpg/m/2400x0/')] bg-cover w-full h-full flex justify-center items-center">
+      <div class="w-[720px] h-[450px] flex flex-col justify-center items-center">
+        <div class="w-[220px] h-[180px]">
+          <img src="https://a.storyblok.com/f/51678/1605x937/6ea517c423/may-promo-asset-kit.png/m/550x0/smart/" alt="">
+        </div>
+        <h1 class="text-4xl md:text-6xl text-white font-bold tracking-wider md:mb-8 text-center">Take the party abroad
+        </h1>
+        <p class="md:w-[650px] md:h-[100px] md:text-xl text-white font-semibold text-center">Why celebrate New Year’s,
+          Oktoberfest, spring
+          break, and more at
+          home? Snag big savings on our special-event
+          trips now until 5/23—see the world!</p>
+        <button class="max-w-60 mx-10 md:mx-0 mt-10 bg-pink-200 px-2 py-2 border-[2px] border-black font-semibold">See
+          special
+          celebration trips</button>
+      </div>
+    </div>
+    <!-- -----end of hero section-------- -->
+    <div
+      class="max-h-40 overflow-hidden bg-amber-200 text-center mx-10 md:mx-60 my-[35px] border-[15px] border-yellow-600 px-4 pt-4 pb-6">
+      <h1 class="text-2xl font-semibold">Group travel for 18–35s</h1>
+      <p>Find your trip, pay over time—we’ll handle the rest. Travel BFFs included.</p>
+    </div>
+    <!-- ------end of box-section--------- -->
+    <div class="md:px-20 py-8">
+      <div class="md:px-20">
+        <div class="my-8">
+          <h1 class="px-2 text-3xl font-bold">Popular Trips</h1>
+        </div>
+        <div class="w-full flex flex-wrap justify-around gap-4">
+          <div class="w-52 h-[420px] bg-white">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/70c8d627ca/trip-tile-cb5b-ultimate-europe-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Ultimate Europe</h3>
+            <p class="px-6 text-base">35 days, 14 cities</p>
+            <p class="px-6 py-3 text-2xl text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <button class="mx-6 text-center text-gray-300 font-bold w-40 bg-red-700 h-8">SAVE UP TO $700</button>
+          </div>
+          <div class="w-52 h-[420px] bg-white">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/6b4552e0e6/trip-tile-gssb-germany-italy-switzerland-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Germany & Italy</h3>
+            <p class="px-6 text-base">10 days, 4 cities</p>
+            <p class="px-6 py-3 text-2xl text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <button class="mx-6 text-center text-gray-300 font-bold w-40 bg-red-700 h-8">SAVE UP TO $550</button>
+          </div>
+          <div class="w-52 h-[420px] bg-white">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/70c8d627ca/trip-tile-cb5b-ultimate-europe-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Japan Highlights</h3>
+            <p class="px-6 text-base">14 days, 6 cities</p>
+            <p class="px-6 py-3 text-2xl text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <button class="mx-6 text-center text-gray-300 font-bold w-40 bg-red-700 h-8">SAVE UP TO $400</button>
+          </div>
+          <div class="w-52 h-[420px] bg-white">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/70c8d627ca/trip-tile-cb5b-ultimate-europe-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">The Greek Islands</h3>
+            <p class="px-6 text-base">11 days, 4 cities</p>
+            <p class="px-6 py-3 text-2xl text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <button class="mx-6 text-center text-gray-300 font-bold w-40 bg-red-700 h-8">SAVE UP TO $600</button>
+          </div>
+        </div>
+
+        <button class="max-w-56 mx-10 md:mx-0 mt-10 bg-slate-400 px-2 py-2 border-[3px] border-black">Give
+          me dates with
+          deals</button>
+      </div>
+    </div>
+    <!-- ----end of product1------- -->
+    <div class="flex justify-center">
+      <div
+        class="bg-[url('https://a.storyblok.com/f/51678/2299x1490/bc4256d96c/hero-50-50-component-palm-trees.jpg/m/2299x0/')] w-full px-20 h-[450px] md:w-[680px] bg-cover my-24 text-center">
+        <div class="text-white text-3xl font-bold my-12">
+          <h1>What's Trending</h1>
+        </div>
+
+        <div class="h-12 my-5 bg-lime-200 border-[2px] border-black flex items-center justify-center">
+          Beach Trips
+        </div>
+        <div class="h-12 my-5 bg-violet-400 border-[2px] border-black flex items-center justify-center">
+          Safari Trips
+        </div>
+        <div class="h-12 my-5 bg-orange-600 border-[2px] border-black flex items-center justify-center">
+          Active Trips
+        </div>
+        <div class="h-12 my-5 bg-yellow-300 border-[2px] border-black flex items-center justify-center">
+          Cruise Trips
+        </div>
+      </div>
+    </div>
+    <!-- ---end of trips section------- -->
+
+    <div
+      class="w-full h-[200px] py-2 bg-teal-400 flex items-center justify-around border-t-[10px] border-b-[10px] border-green-900">
+      <div>
+        <img class="w-24" src="https://a.storyblok.com/f/51678/417x417/5403c234f5/icons-04.png/m/170x0/smart/" alt="">
+        <h2 class="font-bold">EASY PAYMENT PLANS</h2>
+      </div>
+      <div><img class="w-24" src="https://a.storyblok.com/f/51678/417x417/ee72507c33/icons-02.png/m/170x0/smart/"
+          alt="">
+        <h2 class="font-bold">OVER 120 TRIPS</h2>
+      </div>
+      <div>
+        <img class="w-24"
+          src="https://a.storyblok.com/f/51678/157x157/17ccdffaa8/efub-core-icon-template-file_2022_clock_small-space.png/m/157x0/smart/"
+          alt="">
+        <h2 class="font-bold">24/7 SUPPORT</h2>
+      </div>
+    </div>
+    <!-- -------end of add.service-------- -->
+
+    <div class="md:px-20 py-8 bg-white">
+      <div class="md:px-20">
+        <div class="my-8">
+          <h1 class="px-2 text-3xl font-bold">New trips</h1>
+        </div>
+        <div class="w-full flex flex-wrap justify-around gap-4">
+          <div class="w-52 h-[350px] bg-slate-100 rounded-lg">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/5ab1c19a46/trip-tile-smbb-sicily-and-malta-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Sicily & Malta</h3>
+            <p class="px-6 text-base">10 days, 3 cities</p>
+
+          </div>
+          <div class="w-52 h-[350px] bg-slate-100 rounded-lg">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/e99d458205/trip-tile-inhb-holi-in-india-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Holi in India</h3>
+            <p class="px-6 text-base">9 days, 4 cities</p>
+
+          </div>
+          <div class="w-52 h-[350px] bg-slate-100 rounded-lg">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/f7766707d5/trip-tile-xmdb-mexico-city-day-of-the-dead-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Mexico City</h3>
+            <p class="px-6 text-base">7 days, 1 city</p>
+
+          </div>
+          <div class="w-52 h-[350px] bg-slate-100 rounded-lg">
+            <img class="w-full h-50 mb-4"
+              src="https://a.storyblok.com/f/51678/574x600/8d22b9e411/trip-tile-xhhb-hemispherehopper-574x600.jpg/m/500x0/smart/"
+              alt="">
+            <h3 class="px-6 text-xl font-bold my-2">Argentina Tour</h3>
+            <p class="px-6 text-base">60 days, 29 cities</p>
+
+          </div>
+        </div>
+
+        <button class="max-w-56 mx-10 md:mx-0 mt-10 bg-slate-400 px-2 py-2 border-[3px] border-black">Peep the newest
+          trips</button>
+      </div>
+      <div
+        class="max-h-64 md:min-w-80 overflow-hidden px-2 py-10 bg-red-200 mx-10 md:mx-60 my-[60px] border-[10px] border-green-200 text-center">
+        <h1 class="md:text-3xl font-bold mb-5"> Friends = benefits</h1>
+        <p class="mb-5">Get your crew on a trip to earn a free spot or share sweet group discounts.</p>
+        <button class="px-5 py-2 bg-yellow-300 border-[2px] border-black">Learn More</button>
+      </div>
+    </div>
+    <!-- ------end of product2-------- -->
+
+    <div class="w-full min-h-[480px] md:px-[300px] py-[50px] bg-orange-200 text-center">
+      <h1 class="text-orange-600 text-4xl font-bold">&#9733;&nbsp;&#9733;&nbsp;&#9733;&nbsp;&#9733;&nbsp;&#9733;</h1>
+      <h1 class="my-5 text-3xl font-bold">3,500+ reviews</h1>
+      <p class="text-lg max-h-20 mb-10 overflow-hidden">“An amazing trip, from the views and the food to the wonderful
+        people
+        I met on
+        the trip.
+        Everything was thought
+        out so well that I didn’t spend any of my time stressing like I would have if I had gone by myself!”</p>
+      <h1 class="text-lg font-bold max-h-20">—Savannah D., traveled to Germany, Italy & Switzerland</h1>
+      <button class="mt-6 px-5 py-2 bg-orange-500 border-[2px] border-black">See All Reviews</button>
+    </div>
+    </div>
+    <!-- ----end of pre-footer----- -->
+
+    <div class="bg-black w-full h-auto py-16 px-5 md:px-40 ">
+      <div class="h-24 border-b-[1px] border-x-white flex justify-between items-center space-x-6 pb-7">
+        <div class="w-[200px] h-12 flex items-center">
+          <img class="w-full" src="https://d2s6dwtgvg1inc.cloudfront.net/icons/ub-logo-white.svg" alt="logo">
+        </div>
+        <div class="flex h-auto">
+          <div class="px-2 md:px-5"><img class="min-w-6 h-8"
+              src="https://d2s6dwtgvg1inc.cloudfront.net/icons/sm-white-instagram-icon.svg" alt="insta image"></div>
+          <div class="px-2 md:px-5"><img class="min-w-6 h-8"
+              src="https://d2s6dwtgvg1inc.cloudfront.net/icons/sm-white-tiktok-icon.svg" alt="tiktok image"></div>
+          <div class="px-2 md:px-5"><img class="min-w-6 h-8"
+              src="https://d2s6dwtgvg1inc.cloudfront.net/icons/sm-white-facebook-icon.svg" alt="fb imahge"></div>
+          <div class="px-2 md:px-5"><img class="min-w-6 h-8"
+              src="https://d2s6dwtgvg1inc.cloudfront.net/icons/sm-white-youtube-icon.svg" alt="yt image"></div>
+        </div>
+      </div>
+      <div class="text-white grid grid-cols-auto-fit-minmax gap-4 mt-5 md:flex md:justify-between">
+        <div>HOW TO REACH US
+          <ul class="mt-3 text-sm">
+            <li class="py-2">Contact us</li>
+          </ul>
+        </div>
+        <div>TRIPS
+          <ul class="mt-3 text-sm">
+            <li class="py-2">Deals</li>
+            <li class="py-2">All trips</li>
+            <li class="py-2">Trips to Greece</li>
+            <li class="py-2">Trips to France</li>
+            <li class="py-2">Trips to Italy</li>
+            <li class="py-2">Trips to England</li>
+            <li class="py-2">Trips to Latin America</li>
+            <li class="py-2">Long trips</li>
+            <li class="py-2">Beach trips</li>
+          </ul>
+        </div>
+        <div>ABOUT
+          <ul class="mt-3 text-sm">
+            <li class="py-2">What we do</li>
+            <li class="py-2">What we include</li>
+            <li class="py-2">Careers</li>
+            <li class="py-2">Travel App</li>
+          </ul>
+        </div>
+        <div>TRAVELING WITH US
+          <ul class="mt-3 text-sm">
+            <li class="py-2">Payment plans</li>
+            <li class="py-2">Invite friends</li>
+            <li class="py-2">Sorority travel</li>
+            <li class="py-2">Repeat travelers</li>
+            <li class="py-2">College travel</li>
+          </ul>
+        </div>
+        <div>RESOURCES
+          <ul class="mt-3 text-sm">
+            <li class="py-2">FAQ</li>
+            <li class="py-2">Blog</li>
+            <li class="py-2">Travel Guides</li>
+            <li class="py-2">Brand Ambassador program</li>
+            <li class="py-2">Reviews</li>
+            <li class="py-2">As Seen on TikTok</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-10 flex text-white flex-col md:flex-row md:justify-between text-sm">
+        <div>
+          <a class="underline underline-offset-1" href="#">Sitemap |</a>
+          <a class="underline underline-offset-1" href="#">Booking Conditions |</a>
+          <a class="underline underline-offset-1" href="#">Terms of Use |</a>
+          <a class="underline underline-offset-1" href="#">Travel Protection |</a>
+          <a class="underline underline-offset-1" href="#">Privacy |</a>
+          <a class="underline underline-offset-1" href="#">Texting Conditions</a>
+        </div>
+        <div class="mt-2">
+          © 2024 Signum International AG
+        </div>
+      </div>
+
+    </div>
+  </body>
+
+</html>
